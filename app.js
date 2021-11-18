@@ -5,8 +5,8 @@ const btn1 = document.querySelector('.btn1')
 const btn2 = document.querySelector('.btn2')
 
 btn1.addEventListener('click', changeBg)
-
 btn2.addEventListener('click', randBg)
+
 let src = ['https://www.basketnews.lt/paveikslelis-149601-tmlg.jpg',
     'https://www.basketnews.lt/paveikslelis-112282-tmlg.jpg',
     'https://www.basketnews.lt/paveikslelis-3649-tmlg.jpg',
@@ -18,8 +18,6 @@ let src = ['https://www.basketnews.lt/paveikslelis-149601-tmlg.jpg',
     'https://www.basketnews.lt/paveikslelis-29660-tmlg.jpg',]
 
 let images = []
-
-
 
 function changeBg() {
     btn1.disabled=true;
